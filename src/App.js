@@ -1,11 +1,11 @@
 
-import HomePage from './pages/homePage.component'
+import HomePage from './pages/homePage/homePage.component'
 
 function App() {
   return (
-    <div>
+   
       <HomePage />
-    </div>
+    
   )
 
 }
