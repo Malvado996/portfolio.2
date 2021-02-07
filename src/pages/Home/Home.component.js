@@ -2,7 +2,7 @@ import React from 'react';
 import Particles from 'react-particles-js';
 
 import logo from '../../logo.svg';
-import particleParams from './particle';
+import particleParams from './Home.particle';
 
 
 import './Home.styles.scss';
