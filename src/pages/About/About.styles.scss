@@ -1,0 +1,37 @@
+
+.contentContainer {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.spaceMan {
+    height: 250px;
+}
+
+#particles-about {
+    height: 100vh;
+    z-index: -1;
+    background: radial-gradient(circle, rgb(3, 29, 68) 0%,
+      rgb(10, 2, 10) 100%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .spaceMan {
+      animation: spaceMan-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes spaceMan-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

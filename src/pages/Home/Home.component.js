@@ -1,7 +1,7 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
-import logo from '../../logo.svg';
+import motorcycle from '../../assets/motorcycle.svg';
 import particleParams from './Home.particle';
 
 
@@ -11,10 +11,10 @@ const Home = () => {
    return (
     <div className="container">
         <div className="title-container">
-            <img src={logo} className="App-logo" alt="logo" />
+            <img src={ motorcycle } className="motorcycle" alt="logo" />
             <h1>Philip Rodrigues</h1>
         </div>
-        <Particles id="particles-js" 
+        <Particles id="particles-home" 
             params={ particleParams }
         />
     </div>
