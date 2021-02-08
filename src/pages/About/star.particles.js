@@ -18,7 +18,7 @@ const stars = {
         value: 1
       },
       size: {
-        value: 3,
+        value: 4,
         random: {
           enable: true,
           minimumValue: 1
@@ -51,13 +51,23 @@ const stars = {
       }
     },
     interactivity: {
-      detectsOn: "canvas",
+      detectsOn: "window",
       events: {
         onclick: {
           enable: true,
           mode: "push"
         },
-        resize: true
+        onHover: {
+          "enable": false,
+          "mode": "attract",
+          "parallax": {
+            "enable": true,
+            "force": 20,
+            "smooth": 10
+          }
+        },
+        resize: true,
+        
       },
       modes: {
         push: {
