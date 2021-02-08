@@ -3,12 +3,11 @@ import Particles from 'react-particles-js';
 
 import spaceMan from '../../assets/spaceMan.svg'
 import aboutParticle from './About.particle';
+import stars from './star.particles';
 
 import './About.styles.scss';
 
 const About = () => {
-
-    console.log(aboutParticle)
 
     return(
         <div className="container">
@@ -17,7 +16,7 @@ const About = () => {
                 <h1>ABOUT</h1>
             </div>
             <Particles 
-                params={ aboutParticle }
+                params={ stars }
                 id="particles-about"
             />
         </div>
