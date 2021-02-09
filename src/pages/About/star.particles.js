@@ -2,7 +2,7 @@ const stars = {
     fpsLimit: 60,
     particles: {
       number: {
-        value: 600,
+        value: 500,
         density: {
           enable: true,
           area: 800
@@ -63,7 +63,7 @@ const stars = {
           "parallax": {
             "enable": true,
             "force": 20,
-            "smooth": 10
+            "smooth": 20
           }
         },
         resize: true,
