@@ -29,13 +29,13 @@ li {
     list-style-type: none;
     margin: 10px;
     font-size: 18px;
-    z-index: 2;
+    color: #baff29;
     
 }
 
 .navLink:visited { 
     text-decoration: none; 
-    color: crimson
+    color: #baff29;
    }
 
 li:before, li:after{
@@ -50,14 +50,14 @@ li:before, li:after{
   li:before{
     top: -6%;
     left: -.7%;
-    border-top: 2px solid rgb(245, 7, 7);
-    border-left: 2px solid rgb(245, 7, 7); 
+    border-top: 2px solid #F4442E;
+    border-left: 2px solid #F4442E; 
   }
   li:after{
     bottom: -6%;
     right: -.7%;
-    border-bottom: 2px solid rgb(245, 7, 7);
-    border-right: 2px solid rgb(245, 7, 7);
+    border-bottom: 2px solid #F4442E;
+    border-right: 2px solid #F4442E;
   }
   li:hover:before, li:hover:after{
     width: 33%;
