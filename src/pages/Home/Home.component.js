@@ -1,8 +1,8 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
-import motorcycle from '../../assets/motorcycle.svg';
-import particleParams from './Home.particle';
+import motorcycle from '../../assets/images/motorcycle.svg';
+import particleParams from '../../assets/particles/Home.particle';
 
 
 import './Home.styles.scss';

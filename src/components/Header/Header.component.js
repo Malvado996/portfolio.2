@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import dog from '../../assets/dog.svg';
+import dog from '../../assets/images/dog.svg';
 
 import './Header.styles.scss';
 

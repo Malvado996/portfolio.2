@@ -1,11 +1,10 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
-import spaceMan from '../../assets/spaceMan.svg'
-import spaceDog from '../../assets/spaceDog2.svg';
-import stars from './star.particles';
+import stars from '../../assets/particles/star.particles';
 
-import TextContainer from '../../components/TextContainer/TextContainer.component';
+import AboutMe from '../../components/AboutMe/AboutMe.component';
+import AboutImage from '../../components/AboutImage/AboutImage.component';
 
 import './About.styles.scss';
 
@@ -14,11 +13,8 @@ const About = () => {
     return(
         <div className="container">
             <div className="contentContainer">
-                <div className="imageContainer">
-                    <img src={ spaceDog } className="spaceDog" alt="spaceman" />
-                    <img src={ spaceMan } className="spaceMan" alt="spaceman" />
-                </div>
-                <TextContainer />
+                <AboutImage />
+                <AboutMe />
                 <div className="navContainer">
                     <h1>Nav</h1>
                 </div>

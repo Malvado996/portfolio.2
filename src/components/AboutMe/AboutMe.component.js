@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './TextContainer.styles.scss';
+import './AboutMe.styles.scss';
 
-const TextContainer = () => {
+const AboutMe = () => {
     return (
         <div className="textContainer">
             <h1>ABOUT</h1>
@@ -17,4 +17,4 @@ const TextContainer = () => {
     )
 }
 
-export default TextContainer;
+export default AboutMe;

@@ -10,18 +10,11 @@
     
 }
 
-.imageContainer {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-// .textContainer {
-//     font-family: 'Roboto Condensed', sans-serif;
+// .imageContainer {
 //     width: 30%;
-//     text-align: center;
-//     color: #F4442E
+//     display: flex;
+//     justify-content: center;
+//     align-items: flex-end;
 // }
 
 .navContainer {
@@ -33,9 +26,9 @@
 //     width: 30%;
 // }
 
-.spaceDog {
-    height: 30%;
-}
+// .spaceDog {
+//     height: 30%;
+// }
 
 #particles-about {
     height: 100vh;
@@ -44,32 +37,32 @@
       rgb(10, 2, 10) 100%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .spaceMan {
-      animation: spaceMan-spin infinite 20s linear;
-    }
-  }
+// @media (prefers-reduced-motion: no-preference) {
+//     .spaceMan {
+//       animation: spaceMan-spin infinite 20s linear;
+//     }
+//   }
   
-  @keyframes spaceMan-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(-360deg);
-    }
-  }
+//   @keyframes spaceMan-spin {
+//     from {
+//       transform: rotate(0deg);
+//     }
+//     to {
+//       transform: rotate(-360deg);
+//     }
+//   }
 
-  @media (prefers-reduced-motion: no-preference) {
-    .spaceDog {
-      animation: spaceDog-spin infinite 20s linear;
-    }
-  }
+//   @media (prefers-reduced-motion: no-preference) {
+//     .spaceDog {
+//       animation: spaceDog-spin infinite 20s linear;
+//     }
+//   }
   
-  @keyframes spaceDog-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
+//   @keyframes spaceDog-spin {
+//     from {
+//       transform: rotate(0deg);
+//     }
+//     to {
+//       transform: rotate(360deg);
+//     }
+//   }
