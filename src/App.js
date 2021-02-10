@@ -15,14 +15,13 @@ function App() {
       <div>
         <Header />
         <Switch>
-        <Route exact path='/' component={ Home } />
-        <Route path='/about' component={ About } />
+          <Route exact path='/' component={ Home } />
+          <Route path='/about' component={ About } />
         </Switch>
       </div>
     </BrowserRouter>
    
   )
-
 }
 
 export default App;

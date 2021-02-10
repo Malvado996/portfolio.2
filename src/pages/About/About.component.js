@@ -5,6 +5,8 @@ import spaceMan from '../../assets/spaceMan.svg'
 import spaceDog from '../../assets/spaceDog2.svg';
 import stars from './star.particles';
 
+import TextContainer from '../../components/TextContainer/TextContainer.component';
+
 import './About.styles.scss';
 
 const About = () => {
@@ -16,9 +18,7 @@ const About = () => {
                     <img src={ spaceDog } className="spaceDog" alt="spaceman" />
                     <img src={ spaceMan } className="spaceMan" alt="spaceman" />
                 </div>
-                <div className="textContainer">
-                    <h1>ABOUT</h1>
-                </div>
+                <TextContainer />
                 <div className="navContainer">
                     <h1>Nav</h1>
                 </div>

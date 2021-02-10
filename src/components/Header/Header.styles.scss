@@ -37,11 +37,6 @@ li {
     color: #63B0CD
 }
 
-// .navLink:visited { 
-//     text-decoration: none; 
-//     color: none;
-// }
-
 li:before, li:after{
     content: '';
     position: absolute;
@@ -64,7 +59,7 @@ li:before, li:after{
     border-right: 2px solid #F4442E;
   }
   li:hover:before, li:hover:after{
-    width: 33%;
-    height: 33%;
+    width: 40%;
+    height: 40%;
     transition: all 0.3s ease;
   }

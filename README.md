@@ -13,3 +13,8 @@ Slate Gray: #6e7e85
 
 // Reds
 Red RYB: #f4442e
+
+// Fonts
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
