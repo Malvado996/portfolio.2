@@ -28,15 +28,19 @@ li {
     text-decoration: none;
     list-style-type: none;
     margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
     color: #baff29;
-    
 }
 
-.navLink:visited { 
-    text-decoration: none; 
-    color: #baff29;
-   }
+.active {
+    color: #63B0CD
+}
+
+// .navLink:visited { 
+//     text-decoration: none; 
+//     color: none;
+// }
 
 li:before, li:after{
     content: '';
