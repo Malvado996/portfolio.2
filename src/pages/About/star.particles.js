@@ -2,7 +2,7 @@ const stars = {
     fpsLimit: 60,
     particles: {
       number: {
-        value: 500,
+        value: 100,
         density: {
           enable: true,
           area: 800

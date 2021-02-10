@@ -33,6 +33,11 @@ li {
     
 }
 
+.navLink:visited { 
+    text-decoration: none; 
+    color: crimson
+   }
+
 li:before, li:after{
     content: '';
     position: absolute;
