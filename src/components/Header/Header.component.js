@@ -6,7 +6,6 @@ import dog from '../../assets/images/dog.svg';
 import './Header.styles.scss';
 
 const Header = () => {
-
     return (
         <header>
 
@@ -20,7 +19,6 @@ const Header = () => {
 
         </header>
     )
-
 }
 
 export default Header;

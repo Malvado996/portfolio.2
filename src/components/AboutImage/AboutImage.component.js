@@ -5,8 +5,6 @@ import spaceDog from '../../assets/images/spaceDog2.svg';
 
 import './AboutImage.styles.scss';
 
-
-
 const AboutImage = () => {
     return(
         <div className="imageContainer">

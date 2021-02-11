@@ -1,6 +1,8 @@
 
 // Blues
 Oxford Blue: #031D44
+Metallic Seaweed: #028090
+Middle Blue Green: #a2e8dd
 
 
 // Greens
@@ -13,6 +15,11 @@ Slate Gray: #6e7e85
 
 // Reds
 Red RYB: #f4442e
+Candy Apple Red: #db162f
+Scarlet: #ff2e00
+
+// Yellows
+Yellow Orange: #fea82f
 
 // Fonts
 

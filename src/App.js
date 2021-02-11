@@ -8,6 +8,8 @@ import Header from './components/Header/Header.component';
 import Home from './pages/Home/Home.component';
 import About from './pages/About/About.component';
 
+import './App.scss'
+
 function App() {
   return (
 

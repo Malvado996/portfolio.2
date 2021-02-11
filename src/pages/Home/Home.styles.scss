@@ -15,30 +15,9 @@
 
 }
 
-h1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 50px;
-  color: #F4442E
-}
-
 #particles-home {
   height: 100vh;
   z-index: -1;
   background: radial-gradient(circle, rgb(3, 29, 68) 0%,
     rgb(10, 2, 10) 100%);
 }
-
-// @media (prefers-reduced-motion: no-preference) {
-//   .App-logo {
-//     animation: App-logo-spin infinite 20s linear;
-//   }
-// }
-
-// @keyframes App-logo-spin {
-//   from {
-//     transform: rotate(0deg);
-//   }
-//   to {
-//     transform: rotate(360deg);
-//   }
-// }
