@@ -1,0 +1,17 @@
+.projects-content-container {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#particles-project {
+    height: 100vh;
+    z-index: -1;
+    background: radial-gradient(circle, rgb(3, 29, 68) 0%,
+        rgb(10, 2, 10) 100%);
+}

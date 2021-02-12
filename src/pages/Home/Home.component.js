@@ -14,7 +14,8 @@ const Home = () => {
             <h1>Philip Rodrigues</h1>
             <img src={ motorcycle } className="motorcycle" alt="logo" />
         </div>
-        <Particles id="particles-home" 
+        <Particles 
+            id="particles-home" 
             params={ particleParams }
         />
     </div>
