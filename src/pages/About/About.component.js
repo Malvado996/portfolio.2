@@ -11,13 +11,16 @@ import AboutNav from '../../components/AboutNav/AboutNav.component';
 
 import './About.styles.scss';
 
-const About = () => {
+const About = ({ match }) => {
+
+    console.log(match.url, match.path);
+
     return (
         <div className="container">
             <div className="contentContainer">
                 <AboutImage />
                 
-                <Route path="/about" render={ () => <Redirect to={`/about/about_me`} /> } />
+                <Route exact path="/about" render={ () => <Redirect to={`/about/about_me`} /> } />
                 <Route path="/about/about_me" component= { AboutMe } />
                 <Route path="/about/skills" component= { AboutSkill } />
                 

@@ -1,7 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
-import projectsParticle from '../../assets/particles/projects.particle';
 import particleParams from '../../assets/particles/Home.particle';
 
 import './Projects.styles.scss';
