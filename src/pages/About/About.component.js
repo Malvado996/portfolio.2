@@ -12,9 +12,6 @@ import AboutNav from '../../components/AboutNav/AboutNav.component';
 import './About.styles.scss';
 
 const About = ({ match }) => {
-
-    console.log(match.url, match.path);
-
     return (
         <div className="container">
             <div className="contentContainer">
