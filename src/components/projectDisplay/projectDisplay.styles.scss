@@ -1,0 +1,37 @@
+.projectDisplay-container{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+
+.projectDisplay {
+    max-height: 500px;
+    max-width: 500px;
+    background-color: #031D44;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-description {
+    background-color: #031D44;
+}
+
+.project-link {
+    background-color: #031D44;
+}
+
+.crown-spot {
+    max-width: 450px;
+}
+
+.gameShow {
+    max-width: 450px;
+}
+
+.webDashboard {
+    max-height: 300px;
+}
