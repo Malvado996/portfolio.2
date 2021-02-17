@@ -1,5 +1,6 @@
 .projects-content-container {
     position: absolute;
+    overflow: auto;
     flex-direction: column;
     display: flex;
     align-items: center;

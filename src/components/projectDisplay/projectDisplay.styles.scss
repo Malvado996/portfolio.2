@@ -1,5 +1,6 @@
 .projectDisplay-container{
     width: 100vw;
+    overflow: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -9,7 +10,7 @@
 .projectDisplay {
     max-height: 500px;
     max-width: 500px;
-    background-color: #031D44;
+    // background-color: #031D44;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -17,7 +18,8 @@
 }
 
 .project-description {
-    background-color: #031D44;
+    background-color: rgba( 3, 29, 68, 0.7);
+    color: #F0EFF4
 }
 
 .project-link {

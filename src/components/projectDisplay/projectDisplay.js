@@ -50,9 +50,7 @@ const ProjectDisplay = () => {
                 </p>
                 <a className="project-link" href="https://crown-spot.herokuapp.com/">click here</a>
             </div>
-        </div>
-
-        
+        </div>  
     )
 }
 

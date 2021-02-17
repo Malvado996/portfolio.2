@@ -8,6 +8,9 @@ import particleParams from '../../assets/particles/Home.particle';
 import './Projects.styles.scss';
 
 const Projects = () => {
+
+    console.log(window.screen.height)
+    
     return(
         <div className="projects-container">
             <div className="projects-content-container">
