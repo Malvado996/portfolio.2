@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.11f113c1.chunk.css",
+    "main.js": "/static/js/main.9735a2cc.chunk.js",
+    "main.js.map": "/static/js/main.9735a2cc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.309a0d94.js",
+    "runtime-main.js.map": "/static/js/runtime-main.309a0d94.js.map",
+    "static/js/2.3424883d.chunk.js": "/static/js/2.3424883d.chunk.js",
+    "static/js/2.3424883d.chunk.js.map": "/static/js/2.3424883d.chunk.js.map",
+    "static/js/3.84474b0f.chunk.js": "/static/js/3.84474b0f.chunk.js",
+    "static/js/3.84474b0f.chunk.js.map": "/static/js/3.84474b0f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.11f113c1.chunk.css.map": "/static/css/main.11f113c1.chunk.css.map",
+    "static/js/2.3424883d.chunk.js.LICENSE.txt": "/static/js/2.3424883d.chunk.js.LICENSE.txt",
+    "static/media/Gameshow-App.820162db.png": "/static/media/Gameshow-App.820162db.png",
+    "static/media/Web-Dashboard.e5ba9b9f.png": "/static/media/Web-Dashboard.e5ba9b9f.png",
+    "static/media/astronaut.46ef17d3.svg": "/static/media/astronaut.46ef17d3.svg",
+    "static/media/chrysler.e2eefad6.svg": "/static/media/chrysler.e2eefad6.svg",
+    "static/media/crown-spot.fe13d3c2.png": "/static/media/crown-spot.fe13d3c2.png",
+    "static/media/dog.0db66e12.svg": "/static/media/dog.0db66e12.svg",
+    "static/media/empireState.9bc21f4f.svg": "/static/media/empireState.9bc21f4f.svg",
+    "static/media/github.icon.9af95191.png": "/static/media/github.icon.9af95191.png",
+    "static/media/html.icon.b6a8ba38.svg": "/static/media/html.icon.b6a8ba38.svg",
+    "static/media/javascript.icon.b8eabfa0.png": "/static/media/javascript.icon.b8eabfa0.png",
+    "static/media/jest.icon.809768de.png": "/static/media/jest.icon.809768de.png",
+    "static/media/motorcycle.4c92c707.svg": "/static/media/motorcycle.4c92c707.svg",
+    "static/media/node.icon.2e0007f7.png": "/static/media/node.icon.2e0007f7.png",
+    "static/media/react.icon.78e61144.png": "/static/media/react.icon.78e61144.png",
+    "static/media/redux.icon.b3b939c6.png": "/static/media/redux.icon.b3b939c6.png",
+    "static/media/rocket.10476c7e.svg": "/static/media/rocket.10476c7e.svg",
+    "static/media/sass.icon.ff09e95a.png": "/static/media/sass.icon.ff09e95a.png",
+    "static/media/spaceDog2.a5ed0bcd.svg": "/static/media/spaceDog2.a5ed0bcd.svg",
+    "static/media/spaceMan.d58a0a80.svg": "/static/media/spaceMan.d58a0a80.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.309a0d94.js",
+    "static/js/2.3424883d.chunk.js",
+    "static/css/main.11f113c1.chunk.css",
+    "static/js/main.9735a2cc.chunk.js"
+  ]
+}
