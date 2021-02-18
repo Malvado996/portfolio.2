@@ -1,3 +1,11 @@
+
+.projects-container {
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+    
+}
+
 .projects-content-container {
     position: absolute;
     overflow: auto;
@@ -7,11 +15,7 @@
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    margin-top: 3.815rem;
-}
-
-.projects-h1 {
-    padding: 1.25rem;
+    // margin-top: 3.815rem;
 }
 
 #particles-project {

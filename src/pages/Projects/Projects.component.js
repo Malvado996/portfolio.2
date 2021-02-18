@@ -7,14 +7,11 @@ import particleParams from '../../assets/particles/Home.particle';
 
 import './Projects.styles.scss';
 
-const Projects = () => {
-
-    console.log(window.screen.height)
-    
+const Projects = () => {    
     return(
         <div className="projects-container">
             <div className="projects-content-container">
-                <h1 className="projects-h1">Projects</h1>
+                
                 <ProjectDisplay />
             </div>        
             <Particles

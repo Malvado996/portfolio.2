@@ -9,69 +9,68 @@ import './projectDisplay.styles.scss';
 const ProjectDisplay = () => {
     return(
         <div className="projectDisplay-container">
-            <div className="projectDisplay">
-                <img src={ crownSpot } className="crown-spot" alt="crown-spot" />
-                <p className="project-description">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-                    officia deserunt mollit anim id est laborum."
-                </p>
-                <a 
-                    className="project-link" 
-                    href="https://crown-spot.herokuapp.com/" 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    click here
-                </a>
-            </div>
 
-            <div className="projectDisplay">
-                <img src={ webDashboard } className="webDashboard" alt="webDashboard" />
-                <p className="project-description">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-                    officia deserunt mollit anim id est laborum."
-                </p>
-                <a 
-                    className="project-link" 
-                    href="https://crown-spot.herokuapp.com/" 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    click here
-                </a>
-            </div>
+            <h2 className="projects-h1">PROJECTS</h2>
 
-            <div className="projectDisplay">
-                <img src={ gameShow } className="gameShow" alt="gameShow" />
-                <p className="project-description">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-                    officia deserunt mollit anim id est laborum."
-                </p>
-                <a 
-                    className="project-link" 
-                    href="https://crown-spot.herokuapp.com/" 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    click here
-                </a>
-            </div>
-        </div>  
+            <div className="projectItem-container">
+                <div className="projectItem">
+                    <img src={ crownSpot } className="crown-spot" alt="crown-spot" />
+                    <p className="project-description">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    </p>
+                    <a 
+                        className="project-link" 
+                        href="https://crown-spot.herokuapp.com/" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        visit site
+                    </a>
+                </div>
+
+                <div className="projectItem">
+                    <img src={ webDashboard } className="webDashboard" alt="webDashboard" />
+                    <p className="project-description">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    </p>
+                    <a 
+                        className="project-link" 
+                        href="https://crown-spot.herokuapp.com/" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        visit site
+                    </a>
+                </div>
+
+                <div className="projectItem">
+                    <img src={ gameShow } className="gameShow" alt="gameShow" />
+                    <p className="project-description">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    </p>
+                    <a 
+                        className="project-link" 
+                        href="https://crown-spot.herokuapp.com/" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        visit site
+                    </a>
+                </div>
+            </div> 
+        </div> 
     )
 }
 
