@@ -43,7 +43,7 @@ const ProjectDisplay = () => {
                     </p>
                     <a 
                         className="project-link" 
-                        href="https://crown-spot.herokuapp.com/" 
+                        href="https://malvado996.github.io/Web-Dashboard/" 
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -62,7 +62,7 @@ const ProjectDisplay = () => {
                     </p>
                     <a 
                         className="project-link" 
-                        href="https://crown-spot.herokuapp.com/" 
+                        href="https://malvado996.github.io/Gameshow-App/" 
                         target="_blank"
                         rel="noopener noreferrer"
                     >
