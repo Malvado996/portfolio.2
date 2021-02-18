@@ -33,3 +33,11 @@ https://crown-spot.herokuapp.com/
 https://malvado996.github.io/Gameshow-App/
 
 https://malvado996.github.io/Web-Dashboard/
+
+// Fonts
+
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Share+Tech+Mono&display=swap" rel="stylesheet"> -->
+
+font-family: 'Orbitron', sans-serif;
+font-family: 'Share Tech Mono', monospace;

@@ -4,12 +4,13 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
 } 
 
 .projectDisplay {
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 35.527rem;
+    max-width: 35.527rem;
     // background-color: #031D44;
     display: flex;
     flex-direction: column;
@@ -23,17 +24,25 @@
 }
 
 .project-link {
-    background-color: #031D44;
+    // background-color: #031D44;
+    color: #F0EFF4;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.project-link:visited {
+    text-decoration: none;
+    color: #F0EFF4
 }
 
 .crown-spot {
-    max-width: 450px;
+    max-width: 22.737rem;
 }
 
 .gameShow {
-    max-width: 450px;
+    max-width: 22.737rem;
 }
 
 .webDashboard {
-    max-height: 300px;
+    max-height: 18.19rem;
 }

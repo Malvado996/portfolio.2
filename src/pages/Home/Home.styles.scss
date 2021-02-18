@@ -1,6 +1,6 @@
 
 .motorcycle {
-  height: 480px;
+  height: 454.75px;
   pointer-events: none;
 }
 
@@ -12,7 +12,11 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
+}
 
+.home-h1 {
+  font-size: 3.052rem;
+  text-transform: uppercase;
 }
 
 #particles-home {

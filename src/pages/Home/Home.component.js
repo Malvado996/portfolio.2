@@ -11,7 +11,7 @@ const Home = () => {
    return (
     <div className="container">
         <div className="title-container">
-            <h1>Philip Rodrigues</h1>
+            <h1 className="home-h1">Philip Rodrigues</h1>
             <img src={ motorcycle } className="motorcycle" alt="logo" />
         </div>
         <Particles 

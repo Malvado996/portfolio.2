@@ -20,16 +20,17 @@ li {
     position: relative;
     margin: 9px;
     padding: 2px;
-    width: 85px;
+    width: 95px;
     text-align: center;
 }
 
 .navLink {
     text-decoration: none;
+    text-transform: uppercase;
     list-style-type: none;
     margin: 10px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
     color: #baff29;
 }
 

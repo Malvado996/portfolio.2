@@ -1,5 +1,9 @@
 
 .form-container {
     width: 20%;
-    color: #F4442E
+    color: #F4442E;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }

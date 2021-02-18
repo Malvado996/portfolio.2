@@ -20,7 +20,14 @@ const ProjectDisplay = () => {
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
                     officia deserunt mollit anim id est laborum."
                 </p>
-                <a className="project-link" href="https://crown-spot.herokuapp.com/">click here</a>
+                <a 
+                    className="project-link" 
+                    href="https://crown-spot.herokuapp.com/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    click here
+                </a>
             </div>
 
             <div className="projectDisplay">
@@ -34,7 +41,14 @@ const ProjectDisplay = () => {
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
                     officia deserunt mollit anim id est laborum."
                 </p>
-                <a className="project-link" href="https://crown-spot.herokuapp.com/">click here</a>
+                <a 
+                    className="project-link" 
+                    href="https://crown-spot.herokuapp.com/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    click here
+                </a>
             </div>
 
             <div className="projectDisplay">
@@ -48,7 +62,14 @@ const ProjectDisplay = () => {
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
                     officia deserunt mollit anim id est laborum."
                 </p>
-                <a className="project-link" href="https://crown-spot.herokuapp.com/">click here</a>
+                <a 
+                    className="project-link" 
+                    href="https://crown-spot.herokuapp.com/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    click here
+                </a>
             </div>
         </div>  
     )

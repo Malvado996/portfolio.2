@@ -12,7 +12,7 @@ const Form = () => {
         Ut enim ad minim veniam, quis nostrud exercitation ullamco 
         laboris nisi ut aliquip ex ea commodo consequat.
       </p>
-      <p>Email:<a href="mailto: philip.rodrigues.js@gmail.com">philip.rodrigues.js@gmail.com</a></p>
+      <p>Email:<a href="mailto: philip.rodrigues.js@gmail.com"> philip.rodrigues.js@gmail.com</a></p>
     </div>
   )
 
