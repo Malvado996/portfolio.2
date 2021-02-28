@@ -1,8 +1,32 @@
-import React from 'react'; 
+import React, { useState } from 'react'; 
 
 import './Form.styles.scss';
 
 const Form = () => {
+
+  const [ values, setValues ] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleInputChange = (event) => {
+    setValues({
+      ...values,
+      [event.target.name]: event.target.value
+    })
+  }
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(values);
+    setValues({
+      name: '',
+      email: '',
+      message: '',
+    });
+    window.alert('Message Successfully Submitted');
+  }
 
   return(
     <div className="form-container">
@@ -15,13 +39,31 @@ const Form = () => {
         laboris nisi ut aliquip ex ea commodo consequat.
       </p>
 
-      <form>
-        <label for='name'><p className='form-label-text'>Name:</p></label>
-        <input type='text' id='name' name='name'></input>
-        <label for='email'><p className='form-label-text'>Email:</p></label>
-        <input type='email' id='email' name='email'></input>
-        <label for='message'><p className='form-label-text'>Message:</p></label>
-        <textarea id='message' name='message' rows='5' cols='30'></textarea>
+      <form onSubmit={ handleSubmit }>
+        <label htmlFor='name'><p className='form-label-text'>Name:</p></label>
+          <input 
+            onChange={ handleInputChange }
+            value={ values.name}  
+            type='text' 
+            id='name' 
+            name='name'>
+          </input>
+        <label htmlFor='email'><p className='form-label-text'>Email:</p></label>
+          <input 
+            onChange={ handleInputChange }
+            value={ values.email } 
+            type='email' id='email' 
+            name='email'>
+          </input>
+        <label htmlFor='message'><p className='form-label-text'>Message:</p></label>
+          <textarea 
+            onChange={ handleInputChange }
+            value={ values.message } 
+            id='message' 
+            name='message' 
+            rows='5' 
+            cols='30'>
+          </textarea>
         <button type='submit' className='submit-button'><p className='form-label-text'>submit</p></button>
       </form>
       
