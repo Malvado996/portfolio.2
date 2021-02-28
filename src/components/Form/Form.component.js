@@ -22,6 +22,7 @@ const Form = () => {
         <input type='email' id='email' name='email'></input>
         <label for='message'><p className='form-label-text'>Message:</p></label>
         <textarea id='message' name='message' rows='5' cols='30'></textarea>
+        <button type='submit' className='submit-button'><p className='form-label-text'>submit</p></button>
       </form>
       
       <span className='email-span'>Email:<a href="mailto: philip.rodrigues.js@gmail.com"> philip.rodrigues.js@gmail.com</a></span>

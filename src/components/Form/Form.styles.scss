@@ -8,8 +8,19 @@
     align-items: center;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 .form-label-text {
     margin: 8px 0 4px;
+}
+
+.submit-button {
+    width: 100px;
+    margin: 10 auto;
+    align-self: center;
 }
 
 .email-span {
