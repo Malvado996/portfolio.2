@@ -5,6 +5,8 @@ import './Form.styles.scss';
 
 const Form = () => {
 
+  const db = firebase.firestore();
+
   const [ values, setValues ] = useState({
     name: '',
     email: '',
@@ -20,7 +22,19 @@ const Form = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(values);
+
+    db.collection("messages").add({
+      name: values.name,
+      email: values.email,
+      message: values.message
+    })
+    .then((docRef) => {
+      console.log("Document written with ID: ", docRef.id);
+    })
+    .catch((error) => {
+      console.error("Error adding document: ", error)
+    });
+
     setValues({
       name: '',
       email: '',
