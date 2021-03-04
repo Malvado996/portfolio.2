@@ -14,36 +14,17 @@ const ProjectDisplay = () => {
 
             <div className="projectItem-container">
 
-                {/* <div className="projectItem">
-                    <img src={ crownSpot } className="crown-spot" alt="crown-spot" />
-                    <p className="project-description">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    </p>
-                    <a 
-                        className="project-link" 
-                        href="https://crown-spot.herokuapp.com/" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        visit site
-                    </a>
-                </div> */}
-
                 <div className="item-container">
                     <div className="item">
                         <img src={ crownSpot } className="crown-spot" alt="crown-spot" />
                         <div className="overlay">
-                            <h3>Overlay</h3>
+                            <h3>E Commerce Shop Project</h3>
                             <p className="project-description">
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                This is an e commerce shop written with a React frontend and implementing 
+                                Redux for state management as well as Sagas to handle asynchronous functionality.
+                                Firebase base allows for data storage along with Google authorization while Stripe
+                                handles payment processing.
+                                
                             </p>
                             <a 
                                 className="project-link" 
@@ -61,13 +42,12 @@ const ProjectDisplay = () => {
                     <div className="item">
                     <img src={ webDashboard } className="webDashboard" alt="webDashboard" />
                         <div className="overlay">
-                            <h3>Overlay</h3>
+                            <h3>Dog App</h3>
                             <p className="project-description">
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Dog App is a mock web dashboard featuring css Grid and Flexbox for 
+                                positioning as well as interactive graphs utlizing JQuery. It is fully 
+                                mobile responsive and provides local session storage in the browser
+                                as well as a gratuitous application of dogs. 
                             </p>
                             <a 
                                 className="project-link" 
@@ -85,13 +65,12 @@ const ProjectDisplay = () => {
                     <div className="item">
                     <img src={ gameShow } className="gameShow" alt="gameShow" />
                         <div className="overlay">
-                            <h3>Overlay</h3>
+                            <h3>Gameshow App</h3>
                             <p className="project-description">
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                My first very Javascript project; a web version of wheel of fortune 
+                                featuring css transitions and transform as well as vanilla JS Dom 
+                                manipulation. To cheat, open up your developer tools and inpect the console to
+                                see the correct answer.
                             </p>
                             <a 
                                 className="project-link" 
@@ -105,43 +84,6 @@ const ProjectDisplay = () => {
                     </div>
                 </div>
 
-                {/* <div className="projectItem">
-                    <img src={ webDashboard } className="webDashboard" alt="webDashboard" />
-                    <p className="project-description">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    </p>
-                    <a 
-                        className="project-link" 
-                        href="https://malvado996.github.io/Web-Dashboard/" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        visit site
-                    </a>
-                </div>
-
-                <div className="projectItem">
-                    <img src={ gameShow } className="gameShow" alt="gameShow" />
-                    <p className="project-description">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    </p>
-                    <a 
-                        className="project-link" 
-                        href="https://malvado996.github.io/Gameshow-App/" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        visit site
-                    </a>
-                </div> */}
             </div> 
         </div> 
     )
