@@ -69,7 +69,7 @@ const ProjectDisplay = () => {
                             <p className="project-description">
                                 My first very Javascript project; a web version of wheel of fortune 
                                 featuring css transitions and transform as well as vanilla JS Dom 
-                                manipulation. To cheat, open up your developer tools and inpect the console to
+                                manipulation. To cheat, open up your developer tools and inspect the console to
                                 see the correct answer.
                             </p>
                             <a 
