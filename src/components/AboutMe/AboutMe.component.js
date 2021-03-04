@@ -7,11 +7,12 @@ const AboutMe = () => {
         <div className="textContainer">
             <h1>ABOUT</h1>
             <p className="aboutText">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."  
+                Hello world. My name is Phil, I am a front end engineer who
+                thinks in React. I am passionate about the intersection of great 
+                design and smart, legibly written code. I love to build and to learn.
+
+                In my free time I can found hiking with my dog, tinkering with my
+                motorcycle, or daydreaming about sacred geometry.
             </p>
         </div>
     )

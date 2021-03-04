@@ -48,10 +48,11 @@ const Form = () => {
       
       <h3>Contact Me</h3>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-        laboris nisi ut aliquip ex ea commodo consequat.
+      <p>
+        Thank you for taking the time to check out my portfolio.
+        If you'd like to contact me for a project or position, or leave any feedback,
+        feel free to send a message or contact me through the email below.
+        Hope you have a great day!
       </p>
 
       <form onSubmit={ handleSubmit }>
