@@ -9,11 +9,21 @@ import './AboutNav.styles.scss';
 const AboutNav = () => {
     return(
         <div className="navContainer">
-            <h1>Nav</h1>
+            <h4>Navigate</h4>
 
             <ul className="nav_container">
-                <li><NavLink to={`/about/about_me`}><img src={ astronaut } className="astronaut" alt="astronaut" /></NavLink></li>
-                <li><NavLink to={`/about/skills`}><img src={ rocket } className="rocket" alt="rocket" /></NavLink></li>
+                <li>
+                    <div className="link">
+                        <NavLink to={`/about/about_me`}><img src={ astronaut } className="astronaut" alt="astronaut" /></NavLink>
+                        <h6>About Me</h6>
+                    </div>
+                </li>
+                <li>
+                    <div className="link">
+                        <NavLink to={`/about/skills`}><img src={ rocket } className="rocket" alt="rocket" /></NavLink>
+                        <h6>Skills</h6>
+                    </div>
+                </li>
             </ul>
         </div>
     )

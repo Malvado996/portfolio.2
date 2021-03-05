@@ -14,3 +14,21 @@
 .astronaut, .rocket {
     height: 50px;
 }
+
+.link {
+    position: relative;
+}
+
+.link h6 {
+    margin: 0;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    transform: translateX(200%) translateY(-150%) rotate(90deg);
+    // background-color: blue;
+    transition: .6s ease-out;
+}
+
+.link:hover h6 {
+    color: #61e294;
+}
