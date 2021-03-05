@@ -11,7 +11,7 @@ const AboutMe = () => {
                 thinks in React. I am passionate about the intersection of great 
                 design and smart, legibly written code. I love to build and to learn.
 
-                In my free time I can found hiking with my dog, tinkering with my
+                In my free time I can be found hiking with my dog, tinkering with my
                 motorcycle, or daydreaming about sacred geometry.
             </p>
         </div>
