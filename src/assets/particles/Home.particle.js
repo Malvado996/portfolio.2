@@ -30,7 +30,7 @@ const particleParams = {
         }
         },
         size: {
-        value: 7,
+        value: 5,
         random: { enable: true, minimumValue: 4 },
         animation: {
             enable: false,
@@ -54,7 +54,7 @@ const particleParams = {
             enable: true,
             acceleration: -0.5
         },
-        speed: 8,
+        speed: 6,
         direction: "top",
         random: false,
         straight: false,
